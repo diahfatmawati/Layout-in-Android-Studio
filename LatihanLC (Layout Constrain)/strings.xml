@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LatihanLC</string>
+    <string name="back">Back</string>
+    <string name="next">next</string>
+    <string name="anda_setuju">Anda Setuju</string>
+    <string name="silahkan_klik_next_jika_anda_menyetujui">silahkan klik next jika anda menyetujui</string>
+</resources>

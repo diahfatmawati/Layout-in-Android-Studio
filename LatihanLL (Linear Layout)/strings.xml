@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LatihanLL</string>
+    <string name="welcome_to_our_galery">Welcome to Our Galery</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="silahkan_klik_login_jika_akun_anda_telah_terdafar">Silahkan klik login jika akun anda telah terdafar.</string>
+</resources>

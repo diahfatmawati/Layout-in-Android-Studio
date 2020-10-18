@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00a5ff"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="40sp"
+        android:text="@string/belanja_no_repot"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:fontFamily="@font/crete_round" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="490dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="50dp"
+        android:contentDescription="@string/todoo"
+        app:srcCompat="@drawable/birumuda" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="75dp"
+            android:background="#000069"
+            android:fontFamily="@font/amarante"
+            android:text="@string/login"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#000069"
+            android:fontFamily="@font/amarante"
+            android:text="@string/masuk"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/editTextTextPersonName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="420dp"
+                    android:layout_marginEnd="10dp"
+                    android:autofillHints=""
+                    android:ems="15"
+                    android:inputType="textPersonName"
+                    android:text="@string/email"
+                    android:textColor="#000069"
+                    android:textSize="12sp"
+                    tools:ignore="LabelFor" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginEnd="5dp"
+                    android:ems="15"
+                    android:inputType="textPassword"
+                    android:hint="@string/password"
+                    android:autofillHints=""
+                    android:textColorHint="#000069"
+                    android:textSize="12sp"/>
+            </TableRow>
+        </TableLayout>
+    </FrameLayout>
+</RelativeLayout>
